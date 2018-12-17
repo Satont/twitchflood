@@ -3,14 +3,10 @@ import sys
 import threading
 import random
 import time
-import string
-import os
-import textwrap
 
 readbuffer = ""
 MODT = False
 
-os.system("clear") 
 print("[----] GO GO GO [----]")
 
 def randomString():

@@ -12,8 +12,6 @@ oauth:token
 oauth:token
 ```
 
-- install dependencies `$ pip install -r requirements.txt`
-
 After that lets use our script!
 
 ```sh
