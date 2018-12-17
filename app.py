@@ -43,7 +43,7 @@ while True:
     for line in temp:
         # Checks whether the message is PING because its a method of Twitch to check if you're afk
         if (line[0] == "PING"):
-            s.send("PONG :tmi.twitch.tv\r\n")
+            s.send(("PONG :tmi.twitch.tv\r\n").encode())
         else:
             # Splits the given string so we can work with it better
             parts = str.split(line, ":")
