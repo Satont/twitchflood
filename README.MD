@@ -12,7 +12,7 @@ oauth:token
 oauth:token
 ```
 
-After that lats use our script!
+After that lets use our script!
 
 ```sh
 $ pip install -r requirements.txt
